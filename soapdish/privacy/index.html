@@ -159,11 +159,12 @@
       <p>To understand which features help and to fix crashes, the app sends:</p>
       <ul>
         <li>
-          <strong>usage events</strong> to <strong>PostHog</strong>: for example “onboarding
-          finished”, “card added (Starter or My Card)”, “scan made”, “scan corrected”, “Hand Finder
-          used”, “check result”, “trial started”, “purchase”, “cancel”, with your anonymous ID, app
-          version and phone type. Never photos, tiles of your card, card content, names or
-          game-night scores;
+          <strong>usage events</strong> to <strong>PostHog</strong>: first open, onboarding
+          finished, card added (Starter or My Card), scan made, scan corrected, Hand Finder used,
+          check result, trial started, purchase and cancel, each with a random statistics ID (not
+          your anonymous ID), app version and phone type. Never photos, your card’s content, tiles,
+          names or game-night scores, and no location. You can turn this off in Menu → AI &amp;
+          privacy settings;
         </li>
         <li>
           <strong>crash reports</strong> to <strong>Sentry</strong>: what went wrong in the app, app
@@ -187,7 +188,10 @@
           If your phone was offline, email us the anonymous ID shown in the app and we will delete
           it.
         </li>
-        <li>Withdraw AI scanning consent in Menu → AI &amp; privacy settings.</li>
+        <li>
+          Withdraw AI scanning consent, or turn off usage statistics, in Menu → AI &amp; privacy
+          settings.
+        </li>
         <li>
           Depending on where you live, you may have rights to access, correct or delete your data,
           or to complain to a data protection authority. Email us to use them.
